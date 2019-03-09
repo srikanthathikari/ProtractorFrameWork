@@ -1,0 +1,26 @@
+{
+  "name": "protractorframework",
+  "version": "1.0.0",
+  "description": "Implemention test framework using protractor and cucumber",
+  "main": "index.js",
+  "dependencies": {
+    "cucumber": "^5.1.0",
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "protractor-cucumber-framework": "^6.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikanthathikari/ProtractorFrameWork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srikanthathikari/ProtractorFrameWork/issues"
+  },
+  "homepage": "https://github.com/srikanthathikari/ProtractorFrameWork#readme"
+}
