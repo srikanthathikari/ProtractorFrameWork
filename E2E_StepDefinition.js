@@ -2,6 +2,8 @@
 var { Given, When, Then } = require('cucumber');
 var { browser, by } = require('protractor');
 
+var E2E_helper = require('./E2E_helper')
+
 const { defineSupportCode } = require('cucumber');
 
 defineSupportCode(({ setDefaultTimeout }) => {
@@ -17,8 +19,7 @@ Given(/^User Lands on any given home page$/, function () {
 
 Then(/^Go to MyTrips page$/, function () {
 
-    return browser.element.all(by.className('nav-link app-link nav-link-mytrips')).click().then(function () {
-        return browser.sleep('5000');
+    return E2E_helper.try().then(function () {
 
     })
 })
