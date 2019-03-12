@@ -15,5 +15,14 @@ module.exports = {
     }
 
 
+    // EnterDetails(confirmation,First,Last) {
+
+    //     return browser.element.all(by.className('input-mobile-tab-class ng-pristine ng-invalid ng-touched')).sendKeys(confirmation);
+
+
+
+    // }
+
+
 
 }
